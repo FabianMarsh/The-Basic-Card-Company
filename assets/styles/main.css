@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    font-family: "Yeseva One";
+    background-color: #fcfbf9;
+}
+
+/* Colours */
+
+.bg-black {
+    background-color: #000;
+}
+
 /* Header and Nav */
 
 header {
-    background-color: #fcfbf9;
     padding-bottom: 30px;
     height: 150px;
     width: 100%;
@@ -16,8 +28,50 @@ nav form {
     padding-top: 90px;
 }
 
+/* Featured Banner */
+
+.featured-banner {
+    text-align: center;
+}
+
+/* Product Display */
+
+.product-display {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+/* About the Business */
+
+.business-about {
+    margin: 25px 50px;
+}
+
+.business-about img {
+    height: 300px;
+}
+
 /* Bootstrap Overrides  */
+
+h5 {
+    margin-bottom: 20px;
+}
 
 .btn.focus, .btn:focus {
     box-shadow: 0 0 0 0.2rem rgb(0 0 0 / 25%);
+}
+
+.card {
+    width: 250px;
+    background-color: transparent;
+    margin-left: 20px;
+    display: inline-block
+}
+
+.card button {
+    margin-left: 60px;
+}
+
+.card-img-top {
+    height: 275px;
 }
