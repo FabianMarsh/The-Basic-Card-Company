@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: "Yeseva One";
     background-color: #fcfbf9;
@@ -57,7 +61,17 @@ nav form {
 
 /* footer */
 
+footer {
+    padding: 10px;
+}
 
+footer h4 {
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
 
 /* Bootstrap Overrides  */
 
@@ -92,4 +106,13 @@ element.style {
 
 .card-img-top {
     height: 275px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #adb5bd;
+    text-decoration: none;
 }
